@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic');
+@import url('https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css');
 
 @font-face {
     font-family: 'FFF Tusj';
@@ -14,26 +14,29 @@
 
 html, body, article {
     background-color: #FFFAFA;
-    height: 100%;
+    font-family: 'Quicksand', 'Rounded Mplus 1c';
 }
 
-article {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+a {
+    color: rgb(0, 0, 170);
+    text-decoration: none;
 }
 
-.logo {
-    color: rgb(170, 0, 0);
-    font-family: 'FFF Tusj';
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    font-size: 24px;
     text-align: center;
 }
 
-.logo h1 {
-    font-size: 128px;
-    margin: 0;
+.logo {
+    margin-top: 120px;
+    text-align: center;
 }
 
-.logo span {
-    font-size: 46px;
+.logo img {
+    margin: 24px;
+    width: 400px;
 }
