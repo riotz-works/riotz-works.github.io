@@ -17,7 +17,8 @@
     "upgrade": "yarn upgrade --latest",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "build": "gridsome build"
+    "build": "gridsome build",
+    "deploy": "gh-pages -d dist -b master -m 'Update Site [ci skip]'"
   },
   "homepage": "https://github.com/riotz-works/riotz-works.github.io#readme",
   "repository": {
