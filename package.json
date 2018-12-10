@@ -1,7 +1,9 @@
 {
   "name": "riotz-website",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "gridsome": "^0.3.5"
+  },
   "devDependencies": {},
   "scripts": {
     "setup": "yarn install --ignore-optional",
