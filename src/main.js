@@ -8,5 +8,9 @@ export default (Vue, { head }) => {
   Vue.use(Vuetify);
   head.link.push({ rel: 'stylesheet', href: '//fonts.googleapis.com/icon?family=Material+Icons' });
 
+  head.link.push({ rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Quicksand' });
+  head.link.push({ rel: 'stylesheet', href: '//fonts.googleapis.com/earlyaccess/roundedmplus1c.css' });
+  head.link.push({ rel: 'stylesheet', href: '//cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.min.css' });
+
   Vue.component('Layout', DefaultLayout);
 };
