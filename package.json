@@ -1,5 +1,7 @@
 {
   "name": "riotz-website",
+  "displayName": "Riotz.works",
+  "description": "Official website of Riotz.works, publishing slides and articles.",
   "private": true,
   "dependencies": {
     "gridsome": "^0.3.5"
@@ -7,7 +9,10 @@
   "devDependencies": {},
   "scripts": {
     "setup": "yarn install --ignore-optional",
-    "upgrade": "yarn upgrade --latest"
+    "upgrade": "yarn upgrade --latest",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
   },
   "homepage": "https://github.com/riotz-works/riotz-works.github.io#readme",
   "repository": {
