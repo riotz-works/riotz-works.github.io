@@ -7,7 +7,10 @@
     "gridsome": "^0.3.5",
     "vuetify": "^1.3.12"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
+  },
   "scripts": {
     "setup": "yarn install --ignore-optional",
     "upgrade": "yarn upgrade --latest",
