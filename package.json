@@ -10,7 +10,8 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "webpack-node-externals": "^1.7.2"
   },
   "scripts": {
     "setup": "yarn install --ignore-optional",
