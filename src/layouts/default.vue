@@ -6,10 +6,10 @@
       </v-toolbar-title>
 
       <div class="menu">
-        <a @click="redirect('//riotz.works/articles/')"><i class="material-icons">description</i>Articles</a>
-        <a @click="redirect('//riotz.works/slides/')"><i class="material-icons">desktop_mac</i>Slides</a>
-        <g-link to="/" style="color: gray; text-decoration: none;"><i class="material-icons">card_giftcard</i>Works</g-link>
-        <g-link to="/" style="color: gray; text-decoration: none;"><i class="material-icons">how_to_reg</i>Engineers</g-link>
+        <a @click="redirect('//riotz.works/articles/')" title="Articles"><i class="material-icons">description</i><span class="item">Articles</span></a>
+        <a @click="redirect('//riotz.works/slides/')" title="Slides"><i class="material-icons">desktop_mac</i><span class="item">Slides</span></a>
+        <g-link to="/" style="color: gray; text-decoration: none;" title="Works"><i class="material-icons">card_giftcard</i><span class="item">Works</span></g-link>
+        <g-link to="/" style="color: gray; text-decoration: none;" title="Engineers"><i class="material-icons">how_to_reg</i><span class="item">Engineers</span></g-link>
       </div>
 
       <v-spacer />
@@ -100,6 +100,24 @@ nav {
   padding-right: 4px;
   a {
     color: inherit;
+  }
+}
+
+
+@media screen and (max-width: 740px) {
+  nav {
+    .menu {
+      margin-left: 8px;
+      a {
+        margin: 0 4px;
+      }
+      .material-icons {
+        margin-right: 0;
+      }
+      .item {
+        display: none;
+      }
+    }
   }
 }
 </style>
