@@ -1,10 +1,13 @@
+import VueAnalytics from 'vue-analytics';
 import Vuetify from 'vuetify';
 import DefaultLayout from '~/layouts/default.vue';
 
 import 'vuetify/dist/vuetify.min.css';
 
 
-export default (Vue, { head }) => {
+export default (Vue, { router, head }) => {
+  Vue.use(VueAnalytics, { id: 'UA-109297390-1', router });
+
   Vue.use(Vuetify);
   head.link.push({ rel: 'stylesheet', href: '//fonts.googleapis.com/icon?family=Material+Icons' });
 
