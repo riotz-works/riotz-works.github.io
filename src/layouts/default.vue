@@ -35,7 +35,33 @@
 
 
 <script>
+import logo from '~/favicon.png';
+import { applicationHost, description, displayName } from '../../package.json';
+
 export default {
+  metaInfo() {
+    return {
+      meta: [
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: displayName },
+        { property: 'og:site_name', content: displayName },
+        { property: 'og:description', content: description },
+        { property: 'og:url', content: applicationHost },
+        { property: 'og:image', content: `${applicationHost}${logo}` },
+
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:title', content: displayName },
+        { name: 'twitter:description', content: description },
+        { name: 'twitter:creator', content: '@riotz_works' },
+        { name: 'twitter:site', content: applicationHost },
+        { name: 'twitter:image:src', content: `${applicationHost}${logo}` },
+
+        { itemprop: 'name', content: displayName },
+        { itemprop: 'description', content: description },
+        { itemprop: 'image', content: `${applicationHost}${logo}` }
+      ]
+    };
+  },
   methods: {
     redirect: (url) => {
       // Redirect to be outside of Gridsome management
