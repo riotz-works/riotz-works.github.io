@@ -2,6 +2,7 @@
   "name": "riotz-website",
   "displayName": "Riotz.works",
   "description": "Official website of Riotz.works, publishing slides and articles.",
+  "inceptionYear": 2017,
   "applicationHost": "https://riotz.works",
   "private": true,
   "dependencies": {

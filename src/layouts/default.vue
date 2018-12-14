@@ -28,7 +28,7 @@
 
     <v-footer height="18px" class="footer" style="background-color: rgba(0, 0, 0, 0); min-height: 0;">
       <v-spacer />
-      <small>© Since 2017 <g-link to="/">Riotz.works</g-link>.</small>
+      <small>© Since {{ inceptionYear }} <g-link to="/">{{ displayName }}</g-link>.</small>
     </v-footer>
   </v-app>
 </template>
@@ -36,9 +36,13 @@
 
 <script>
 import logo from '~/favicon.png';
-import { applicationHost, description, displayName } from '../../package.json';
+import { applicationHost, description, displayName, inceptionYear } from '../../package.json';
 
 export default {
+  data: () => ({
+    displayName: displayName,
+    inceptionYear: inceptionYear
+  }),
   metaInfo() {
     return {
       meta: [
