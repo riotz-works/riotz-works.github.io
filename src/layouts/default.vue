@@ -9,7 +9,7 @@
         <a @click="redirect('//riotz.works/articles/')" title="Articles"><i class="material-icons">description</i><span class="item">Articles</span></a>
         <a @click="redirect('//riotz.works/slides/')" title="Slides"><i class="material-icons">desktop_mac</i><span class="item">Slides</span></a>
         <g-link to="/" style="color: gray; text-decoration: none;" title="Works"><i class="material-icons">card_giftcard</i><span class="item">Works</span></g-link>
-        <g-link to="/" style="color: gray; text-decoration: none;" title="Engineers"><i class="material-icons">how_to_reg</i><span class="item">Engineers</span></g-link>
+        <g-link to="/engineers" title="Engineers"><i class="material-icons">how_to_reg</i><span class="item">Engineers</span></g-link>
       </div>
 
       <v-spacer />
