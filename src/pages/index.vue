@@ -8,6 +8,18 @@
 
 <script>
 export default {
-  metaInfo: { titleTemplate: '%s' }
+  metaInfo() {
+    return {
+      meta: [
+        { key: 'description',          template: true },
+        { key: 'twitter:title',        template: true },
+        { key: 'twitter:description',  template: true },
+        { key: 'og:title',             template: true },
+        { key: 'og:description',       template: true },
+        { key: 'itemprop:name',        template: true },
+        { key: 'itemprop:description', template: true }
+      ]
+    }
+  }
 };
 </script>

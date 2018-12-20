@@ -45,24 +45,29 @@ export default {
   }),
   metaInfo() {
     return {
+      titleTemplate: (chunk) => {
+        return chunk !== displayName ? `${chunk} | ${displayName}` : displayName;
+      },
       meta: [
-        { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: displayName },
-        { property: 'og:site_name', content: displayName },
-        { property: 'og:description', content: description },
-        { property: 'og:url', content: applicationHost },
-        { property: 'og:image', content: `${applicationHost}${logo}` },
+        { key: 'description',          name: 'description',         template: chunk => chunk ? chunk : description },
 
-        { name: 'twitter:card', content: 'summary' },
-        { name: 'twitter:title', content: displayName },
-        { name: 'twitter:description', content: description },
-        { name: 'twitter:creator', content: '@riotz_works' },
-        { name: 'twitter:site', content: applicationHost },
-        { name: 'twitter:image:src', content: `${applicationHost}${logo}` },
+        { key: 'twitter:card',         name: 'twitter:card',        content: 'summary' },
+        { key: 'twitter:title',        name: 'twitter:title',       template: chunk => chunk ? `${chunk} | ${displayName}` : displayName },
+        { key: 'twitter:description',  name: 'twitter:description', template: chunk => chunk ? chunk : description },
+        { key: 'twitter:creator',      name: 'twitter:creator',     content: '@riotz_works' },
+        { key: 'twitter:site',         name: 'twitter:site',        content: applicationHost },
+        { key: 'twitter:image:src',    name: 'twitter:image:src',   content: `${applicationHost}${logo}` },
 
-        { itemprop: 'name', content: displayName },
-        { itemprop: 'description', content: description },
-        { itemprop: 'image', content: `${applicationHost}${logo}` }
+        { key: 'og:type',              property: 'og:type',         content: 'website' },
+        { key: 'og:title',             property: 'og:title',        template: chunk => chunk ? `${chunk} | ${displayName}` : displayName },
+        { key: 'og:description',       property: 'og:description',  template: chunk => chunk ? chunk : description },
+        { key: 'og:site_name',         property: 'og:site_name',    content: displayName },
+        { key: 'og:url',               property: 'og:url',          content: applicationHost },
+        { key: 'og:image',             property: 'og:image',        content: `${applicationHost}${logo}` },
+
+        { key: 'itemprop:name',        itemprop: 'name',            template: chunk => chunk ? `${chunk} | ${displayName}` : displayName },
+        { key: 'itemprop:description', itemprop: 'description',     template: chunk => chunk ? chunk : description },
+        { key: 'itemprop:image',       itemprop: 'image',           content: `${applicationHost}${logo}` }
       ]
     };
   },
