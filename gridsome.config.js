@@ -12,6 +12,13 @@ module.exports = {
         path: "contents/*/bio.md",
         typeName: "engineer"
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "contents/works/*/index.md",
+        typeName: "work"
+      }
     }
   ]
 }
