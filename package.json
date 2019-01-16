@@ -8,7 +8,7 @@
   "dependencies": {
     "gridsome": "^0.4.3",
     "vue-analytics": "^5.16.1",
-    "vuetify": "^1.4.1"
+    "vuetify": "^1.4.2"
   },
   "devDependencies": {
     "@gridsome/source-filesystem": "^0.2.0",
