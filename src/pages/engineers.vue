@@ -79,6 +79,11 @@ export default {
 
 
 <style lang="scss" scoped>
+.headline {
+  font-family: 'Quicksand', 'Rounded Mplus 1c' !important;
+  font-feature-settings: 'palt' 1;
+}
+
 ruby {
   rt { display: inline; }
   rb + rt::before, rtc + rt::before { content: '（'; }

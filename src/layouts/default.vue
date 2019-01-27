@@ -83,9 +83,12 @@ export default {
 
 
 <style lang="scss">
-.application {
+.application, .headline {
   font-family: 'Quicksand', 'Rounded Mplus 1c' !important;
   font-feature-settings: 'palt' 1;
+}
+
+.application {
   a {
     color: rgb(0, 0, 170);
     text-decoration: none;
