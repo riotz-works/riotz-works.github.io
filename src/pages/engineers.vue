@@ -9,7 +9,12 @@
         <v-flex v-for="engineer in engineers" :key="engineer.node.id">
           <v-card :id="engineer.node.account" dark width="300px">
             <v-img><g-image :src="engineer.node.image" /></v-img>
-            <v-card-title class="headline">{{ engineer.node.account }}</v-card-title>
+            <v-card-title class="headline">
+              <ruby>
+                <rb>{{ engineer.node.account }}</rb>
+                <rt v-if="engineer.node.ruby">{{ engineer.node.ruby }}</rt>
+              </ruby>
+            </v-card-title>
             <v-card-text class="text" v-html="engineer.node.excerpt" />
             <v-card-actions>
               <v-btn icon class="icon" :href="'https://twitter.com/' + engineer.node.account"><g-image src="~/assets/icon/twitter.svg" /></v-btn>
@@ -35,6 +40,7 @@ query Engineers {
         path
         number
         account
+        ruby
         image
         excerpt
         content
@@ -73,6 +79,12 @@ export default {
 
 
 <style lang="scss" scoped>
+ruby {
+  rt { display: inline; }
+  rb + rt::before, rtc + rt::before { content: '（'; }
+  rb ~ rt:last-child::after, rt + rb::before { content: '）'; }
+}
+
 .flex {
   flex-grow: 0;
   &.empty {

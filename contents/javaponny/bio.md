@@ -1,6 +1,7 @@
 ---
 number: 3
 account: javaponny
+ruby: ジャバポニー
 image: "./photo.jpg"
 excerpt: "ビールをこよなく愛するエンジニア。<br/><br/>
 インフラエンジニアとしてキャリアをスタートしたが、サーバーレスの魅力に惹かれ、アプリケーションエンジニアに転身。<br/><br/>
