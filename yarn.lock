@@ -4073,10 +4073,10 @@ gray-matter@^4.0.1:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gridsome@^0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.4.5.tgz#402fcf3a87bdebb77af30dbfba9818607f1858ff"
-  integrity sha512-TcPMPozVoC+kjMNeJzmD3/KY0ZjWYEMjw4TlqzLu+Y5jpK0PKCE1Nrd0NtC7Tug0Yh3aU+BrUM/DUTxnuBCLsw==
+gridsome@^0.4.6:
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.4.6.tgz#399a513a4770f4cba49ee07d9985694c1dd5d0e1"
+  integrity sha512-Z9P9ZgFtrTBJVTQyGnMX5N5Ov/V0cR+HGZk4k25tPJ2f3supgZN5Gg8MOJRHQnfTeBms2c9VcIWMbNr5U1XYiA==
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/plugin-syntax-dynamic-import" "^7.0.0"
