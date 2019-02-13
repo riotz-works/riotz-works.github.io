@@ -1,4 +1,4 @@
-.logo img[data-v-a28f82ac]{width:120px}.logo[data-v-a28f82ac]:hover{opacity:.8}.application,.headline{font-family:Quicksand,Rounded Mplus\ 1c!important;-webkit-font-feature-settings:"palt" 1;font-feature-settings:"palt" 1}.wrap-app{background-image:url(/assets/img/default-background.50f5e110.jpg);height:100vh;background-size:cover}.wrap-app-mask{height:100%;background:hsla(0,0%,100%,.5)}.app-content{height:100%}
+.logo img[data-v-a28f82ac]{width:120px}.logo[data-v-a28f82ac]:hover{opacity:.8}.application,.headline{font-family:Quicksand,Rounded Mplus\ 1c!important;-webkit-font-feature-settings:"palt" 1;font-feature-settings:"palt" 1}.wrap-app{background-image:url(/assets/img/default-background.50f5e110.jpg);height:100vh;background-size:cover;background-attachment:fixed}.wrap-app-mask{height:100%;background:hsla(0,0%,100%,.5)}.app-content{height:100vh;overflow:auto}
 
 /*!
 * Vuetify v1.5.0
