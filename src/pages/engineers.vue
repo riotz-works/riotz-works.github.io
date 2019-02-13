@@ -5,10 +5,10 @@
     <v-divider></v-divider>
     <p>{{ description }}</p>
 
-    <v-container fluid grid-list-lg>
+    <v-container fluid grid-list-md>
       <v-layout row wrap>
-        <v-flex v-for="engineer in engineers" :key="engineer.node.id" xs12 sm6 md4 class="engineer-card">
-          <v-card :id="engineer.node.account" dark>
+        <v-flex v-for="engineer in engineers" :key="engineer.node.id" xs12 sm6 md4>
+          <v-card :id="engineer.node.account" dark max-width="320">
             <g-image :src="engineer.node.image" class="engineer-avatar" />
             <v-card-title class="headline">
               <ruby>
@@ -16,7 +16,7 @@
                 <rt v-if="engineer.node.ruby">{{ engineer.node.ruby }}</rt>
               </ruby>
             </v-card-title>
-            <v-card-text class="text" v-html="engineer.node.excerpt" />
+            <v-card-text class="text engineer-description" v-html="engineer.node.excerpt" />
             <v-card-actions>
               <v-btn icon class="icon ma-2" :href="'https://twitter.com/' + engineer.node.account"><img src="../assets/icon/twitter.svg" /></v-btn>
               <v-btn icon class="icon ma-2" :href="'https://github.com/' + engineer.node.account"><img src="../assets/icon/github.svg" /></v-btn>
@@ -91,11 +91,12 @@ ruby {
   rb ~ rt:last-child::after, rt + rb::before { content: '）'; }
 }
 
-.engineer-card {
-  max-width: 350px;
-  max-height: 700px;
-}
 .engineer-avatar {
   width: 100%;
 }
+
+.engineer-description {
+  min-height: 280px;
+}
+
 </style>
