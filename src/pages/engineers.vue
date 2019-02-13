@@ -7,9 +7,9 @@
 
     <v-container fluid grid-list-lg>
       <v-layout row wrap>
-        <v-flex v-for="engineer in engineers" :key="engineer.node.id" xs12 sm6 md4>
+        <v-flex v-for="engineer in engineers" :key="engineer.node.id" xs12 sm6 md4 class="engineer-card">
           <v-card :id="engineer.node.account" dark>
-            <g-image :src="engineer.node.image" class="engineer-avatar"/>
+            <g-image :src="engineer.node.image" class="engineer-avatar" />
             <v-card-title class="headline">
               <ruby>
                 <rb>{{ engineer.node.account }}</rb>
@@ -18,8 +18,8 @@
             </v-card-title>
             <v-card-text class="text" v-html="engineer.node.excerpt" />
             <v-card-actions>
-              <v-btn icon class="icon" :href="'https://twitter.com/' + engineer.node.account"><g-image src="~/assets/icon/twitter.svg" /></v-btn>
-              <v-btn icon class="icon" :href="'https://github.com/' + engineer.node.account"><g-image src="~/assets/icon/github.svg" /></v-btn>
+              <v-btn icon class="icon ma-2" :href="'https://twitter.com/' + engineer.node.account"><img src="../assets/icon/twitter.svg" /></v-btn>
+              <v-btn icon class="icon ma-2" :href="'https://github.com/' + engineer.node.account"><img src="../assets/icon/github.svg" /></v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -91,6 +91,10 @@ ruby {
   rb ~ rt:last-child::after, rt + rb::before { content: '）'; }
 }
 
+.engineer-card {
+  max-width: 350px;
+  max-height: 700px;
+}
 .engineer-avatar {
   width: 100%;
 }
