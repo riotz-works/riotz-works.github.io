@@ -1,7 +1,8 @@
 <template>
   <Layout>
 
-    <h1>Works</h1>
+    <h1 class="mt-5">Works</h1>
+    <v-divider></v-divider>
     <p>{{ description }}</p>
 
     <v-container fluid grid-list-xl>

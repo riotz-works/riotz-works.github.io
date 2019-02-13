@@ -1,14 +1,15 @@
 <template>
   <Layout>
 
-    <h1>Riotz Engineers</h1>
+    <h1 class="mt-5">Riotz Engineers</h1>
+    <v-divider></v-divider>
     <p>{{ description }}</p>
 
-    <v-container fluid grid-list-xl>
-      <v-layout justify-space-around wrap>
-        <v-flex v-for="engineer in engineers" :key="engineer.node.id">
-          <v-card :id="engineer.node.account" dark width="300px">
-            <v-img><g-image :src="engineer.node.image" /></v-img>
+    <v-container fluid grid-list-lg>
+      <v-layout row wrap>
+        <v-flex v-for="engineer in engineers" :key="engineer.node.id" xs12 sm6 md4>
+          <v-card :id="engineer.node.account" dark>
+            <g-image :src="engineer.node.image" class="engineer-avatar"/>
             <v-card-title class="headline">
               <ruby>
                 <rb>{{ engineer.node.account }}</rb>
@@ -90,31 +91,7 @@ ruby {
   rb ~ rt:last-child::after, rt + rb::before { content: '）'; }
 }
 
-.flex {
-  flex-grow: 0;
-  &.empty {
-    height: 0 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    div {
-      width: 300px;
-    }
-  }
-}
-
-.v-card {
-  .v-image img {
-    width: 300px;
-  }
-  .headline {
-    padding-bottom: 0;
-  }
-  .text {
-    height: 240px;
-    overflow: hidden;
-  }
-  .icon img {
-    width: 36px;
-  }
+.engineer-avatar {
+  width: 100%;
 }
 </style>
