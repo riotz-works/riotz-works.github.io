@@ -76,6 +76,7 @@ export default {
   background-image: url('../assets/image/default-background.jpg');
   height: 100vh;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .wrap-app-mask {
@@ -84,7 +85,8 @@ export default {
 }
 
 .app-content {
-  height: 100%;
+  height: 100vh;
+  overflow: auto;
 }
 
 </style>
