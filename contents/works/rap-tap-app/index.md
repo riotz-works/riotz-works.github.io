@@ -23,3 +23,5 @@ excerpt: "SPAJAM 2018 東京Ｄ予選、テーマ「音楽」 での モバイ�
 - [リアルタイム動画ラップ バトル アプリを短時間で作り上げた完全サーバーレスな秘技](https://riotz.works/slides/?2018-serverless-conf) @Serverlessconf Tokyo 2018
 - [Vue.js/Nuxt.js で 実現できた の リアルタイム動画ラップ バトル アプリ](https://riotz.works/slides/?2018-vue-fes-reject-con) @Vue Fes Japan 2018 Reject Conference
 - [フル Node.js エコシステム で 戦った モバイルアプリのハッカソン](https://riotz.works/slides/?2018-nodefest) @東京Node学園祭2018
+- [サーバーレスで最高に楽しめるアプリ開発](https://riotz.works/slides/?2019-devsumi) @Developers Summit 2019
+- [AWS x JAMStack で構築・運用するサーバーレスな Web Front](https://riotz.works/slides/?2019-jaws-days) @JAWS DAYS 2019
