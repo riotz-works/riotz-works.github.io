@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "gridsome": "^0.5.4",
-    "vuetify": "^1.5.3"
+    "vuetify": "^1.5.4"
   },
   "devDependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
