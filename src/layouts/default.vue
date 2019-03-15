@@ -5,7 +5,7 @@
 
         <GlobalHeader />
 
-        <v-content class="app-content pa-5">
+        <v-content class="app-content">
           <slot />
         </v-content>
 
@@ -87,6 +87,14 @@ export default {
 .app-content {
   height: 100vh;
   overflow: auto;
+}
+
+.v-toolbar__content {
+  margin: 0 8px 0 0;
+}
+
+.v-footer {
+  padding: 0 24px;
 }
 
 </style>
