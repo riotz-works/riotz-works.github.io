@@ -98,5 +98,4 @@ ruby {
 .engineer-description {
   min-height: 280px;
 }
-
 </style>

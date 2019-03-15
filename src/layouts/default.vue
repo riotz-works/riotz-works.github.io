@@ -66,7 +66,6 @@ export default {
 
 
 <style lang="scss">
-
 .application, .headline {
   font-family: 'Quicksand', 'Rounded Mplus 1c' !important;
   font-feature-settings: 'palt' 1;
@@ -96,5 +95,4 @@ export default {
 .v-footer {
   padding: 0 24px;
 }
-
 </style>
