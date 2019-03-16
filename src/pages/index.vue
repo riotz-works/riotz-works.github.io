@@ -40,6 +40,8 @@
       </section>
     </v-container>
 
+    <v-container class="callout" />
+
     <v-container id="websites" class="websites card inverse">
       <section>
         <h2>Websites</h2>
@@ -195,5 +197,9 @@ $color-primary: #003366;
 }
 
 .contact {
+}
+
+.callout {
+  height: 240px;
 }
 </style>
