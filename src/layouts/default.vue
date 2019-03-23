@@ -95,4 +95,12 @@ export default {
 .v-footer {
   padding: 0 24px;
 }
+
+
+.uil {
+  font-size: 24px;
+  &.uil-twitter {
+    color: rgb(29, 161, 242)
+  }
+}
 </style>

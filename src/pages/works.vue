@@ -13,8 +13,8 @@
 
           <p class="link">
             <ul>
-              <li><a :href="work.node.url" class="url"><i class="material-icons">link</i><span>{{ work.node.url }}</span></a></li>
-              <li v-for="repo in work.node.repos" :key="repo"><a :href="repo" class="url"><i class="material-icons">library_books</i><span>{{ repo }}</span></a></li>
+              <li><a :href="work.node.url" class="url"><i class='uil uil-link'></i><span>{{ work.node.url }}</span></a></li>
+              <li v-for="repo in work.node.repos" :key="repo"><a :href="repo" class="url"><i class='uil uil-diary'></i><span>{{ repo }}</span></a></li>
             </ul>
           </p>
 
@@ -114,9 +114,6 @@ export default {
     li {
       list-style: none;
     }
-  }
-  .material-icons {
-    margin-right: 4px;
   }
 }
 
