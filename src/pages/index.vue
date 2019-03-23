@@ -97,10 +97,8 @@
       <section>
         <h2><i class='uil uil-smile'></i>Contact</h2>
         <div class="contents">
-          <ul>
-            <li><i class='uil uil-twitter'></i> <a href="https://twitter.com/lulzneko">@lulzneko</a> (<a href="https://twitter.com/riotz_works">@riotz_works</a>)</li>
-            <li><i class='uil uil-envelope'></i> <a href="mailto:contact@riotz.works">contact@riotz.works</a></li>
-          </ul>
+          <i class='uil uil-twitter'></i> <a href="https://twitter.com/lulzneko">@lulzneko</a> (<a href="https://twitter.com/riotz_works">@riotz_works</a>) <br />
+          <i class='uil uil-envelope'></i> <a href="mailto:contact@riotz.works">contact@riotz.works</a> <br />
         </div>
       </section>
     </v-container>
