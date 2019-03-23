@@ -97,7 +97,7 @@
       <section>
         <h2><i class='uil uil-smile'></i>Contact</h2>
         <div class="contents">
-          <i class='uil uil-twitter'></i> <a href="https://twitter.com/lulzneko">@lulzneko</a> (<a href="https://twitter.com/riotz_works">@riotz_works</a>) <br />
+          <i class='uil uil-twitter'></i> <a href="https://twitter.com/lulzneko">@lulzneko</a> (<a href="https://twitter.com/riotz_works">@riotz_works</a> is for public relations) <br />
           <i class='uil uil-envelope'></i> <a href="mailto:contact@riotz.works">contact@riotz.works</a> <br />
         </div>
       </section>
