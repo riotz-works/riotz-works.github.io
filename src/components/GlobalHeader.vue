@@ -19,7 +19,7 @@
       <v-divider inset vertical></v-divider>
 
       <v-btn flat @click="redirect('//riotz.works/slides/')" class="subheading mx-1">
-        <i class='uil uil-monitor'></i>
+        <i class='uil uil-presentation-lines-alt'></i>
         SLIDES
       </v-btn>
 
@@ -68,7 +68,7 @@
           <v-divider></v-divider>
 
           <v-list-tile @click="redirect('//riotz.works/slides/')">
-            <i class='uil uil-monitor'></i>
+            <i class='uil uil-presentation-lines-alt'></i>
             <v-list-tile-title>SLIDES</v-list-tile-title>
           </v-list-tile>
 
