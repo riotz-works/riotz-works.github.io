@@ -189,9 +189,13 @@ $color-primary: #003366;
 
 .activities {
   td {
+    height: 28px;
     vertical-align: bottom;
     &:nth-child(-n+3) {
       text-align: right;
+    }
+    &:nth-child(4) {
+      padding-bottom: 2px;
     }
     &:nth-child(n+4) {
       padding-left: 16px;
