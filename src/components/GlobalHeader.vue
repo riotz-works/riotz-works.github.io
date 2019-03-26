@@ -13,28 +13,28 @@
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat @click="redirect('//riotz.works/articles/')" class="subheading mx-1">
         <i class='uil uil-file-edit-alt'></i>
-        ARTICLES
+        <span class="tile-title">ARTICLES</span>
       </v-btn>
 
       <v-divider inset vertical></v-divider>
 
       <v-btn flat @click="redirect('//riotz.works/slides/')" class="subheading mx-1">
         <i class='uil uil-presentation-lines-alt'></i>
-        SLIDES
+        <span class="tile-title">SLIDES</span>
       </v-btn>
 
       <v-divider inset vertical></v-divider>
 
       <v-btn flat to="/works" class="subheading mx-1">
         <i class='uil uil-gift'></i>
-        WORKS
+        <span class="tile-title">WORKS</span>
       </v-btn>
 
       <v-divider inset vertical></v-divider>
 
       <v-btn flat to="/engineers" class="subheading mx-1">
         <i class='uil uil-users-alt'></i>
-        ENGINEERS
+        <span class="tile-title">ENGINEERS</span>
       </v-btn>
 
       <v-divider inset vertical></v-divider>
@@ -129,5 +129,13 @@ export default Vue.extend({
   &:hover {
     opacity: 0.8;
   }
+}
+
+.tile-title {
+  padding-top: 8px;
+}
+
+.v-list__tile__title {
+  padding-top: 6px;
 }
 </style>
