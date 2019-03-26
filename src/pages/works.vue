@@ -2,7 +2,7 @@
   <Layout>
 
     <h1 class="mt-5">Works</h1>
-    <v-divider></v-divider>
+    <v-divider />
     <p>{{ description }}</p>
 
     <v-container fluid grid-list-xl>
@@ -13,8 +13,8 @@
 
           <p class="link">
             <ul>
-              <li><a :href="work.node.url" class="url"><i class='uil uil-link'></i><span>{{ work.node.url }}</span></a></li>
-              <li v-for="repo in work.node.repos" :key="repo"><a :href="repo" class="url"><i class='uil uil-diary'></i><span>{{ repo }}</span></a></li>
+              <li><a :href="work.node.url" class="url"><i class='uil uil-link' /><span>{{ work.node.url }}</span></a></li>
+              <li v-for="repo in work.node.repos" :key="repo"><a :href="repo" class="url"><i class='uil uil-diary' /><span>{{ repo }}</span></a></li>
             </ul>
           </p>
 

@@ -12,7 +12,7 @@
 
     <v-container id="philosophy" class="philosophy card inverse">
       <section>
-        <h2><i class='uil uil-map-marker-info'></i>About Riotz.works</h2>
+        <h2><i class='uil uil-map-marker-info' />About Riotz.works</h2>
         <div class="contents">
           <strong>Riotz.works</strong><small> (ライオッツ ワークス) </small>は IT を 中心とした、エンジニアリング集団です。<br />
           クラウド で サーバーレス な サービス や JAMStack な ウェブサイト の 構築を手がけ、ハッカソン で 腕を競い合い、そして それらで得た知見 を カンファレンス や 勉強会、ブログ、Twitter などで発信しています。<br />
@@ -22,7 +22,7 @@
 
     <v-container id="activities" class="activities card">
       <section>
-        <h2><i class='uil uil-chat-bubble-user'></i>Activities</h2>
+        <h2><i class='uil uil-chat-bubble-user' />Activities</h2>
         <div class="contents">
           <table>
             <tr><td>2019.</td><td> 3.</td><td> 9</td> <td><g-image src="~/assets/logo/cto-samurai.png" />    <a href="https://cto-samurai.connpass.com/event/120473/">CTOチームと競うハッカソン</a></td>     <td></td>               <td></td> </tr>
@@ -44,7 +44,7 @@
 
     <v-container id="websites" class="websites card inverse">
       <section>
-        <h2><i class='uil uil-globe'></i>Websites</h2>
+        <h2><i class='uil uil-globe' />Websites</h2>
         <div class="contents">
 
           <section>
@@ -95,10 +95,10 @@
 
     <v-container id="contact" class="contact card">
       <section>
-        <h2><i class='uil uil-smile'></i>Contact</h2>
+        <h2><i class='uil uil-smile' />Contact</h2>
         <div class="contents">
-          <i class='uil uil-twitter'></i> <a href="https://twitter.com/lulzneko">@lulzneko</a> (<a href="https://twitter.com/riotz_works">@riotz_works</a> is for public relations) <br />
-          <i class='uil uil-envelope'></i> <a href="mailto:contact@riotz.works">contact@riotz.works</a> <br />
+          <i class='uil uil-twitter' /> <a href="https://twitter.com/lulzneko">@lulzneko</a> (<a href="https://twitter.com/riotz_works">@riotz_works</a> is for public relations) <br />
+          <i class='uil uil-envelope' /> <a href="mailto:contact@riotz.works">contact@riotz.works</a> <br />
         </div>
       </section>
     </v-container>

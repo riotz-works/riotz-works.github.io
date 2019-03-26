@@ -2,7 +2,7 @@
   <Layout>
 
     <h1 class="mt-5">Riotz Engineers</h1>
-    <v-divider></v-divider>
+    <v-divider />
     <p>{{ description }}</p>
 
     <v-container fluid grid-list-md>
