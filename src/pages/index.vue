@@ -25,16 +25,16 @@
         <h2><i class='uil uil-chat-bubble-user'></i>Activities</h2>
         <div class="contents">
           <table>
-            <tr><td>2019.</td><td> 3.</td><td> 9</td> <td><a href="https://cto-samurai.connpass.com/event/120473/">CTOチームと競うハッカソン</a></td>     <td></td>               <td></td> </tr>
-            <tr><td>2019.</td><td> 2.</td><td>23</td> <td><a href="https://jawsdays2019.jaws-ug.jp/">JAWS DAYS 2019</a></td>                              <td><a href="/slides/?2019-jaws-days">スライド</a></td>               <td></td> </tr>
-            <tr><td>2019.</td><td> 2.</td><td>15</td> <td><a href="https://event.shoeisha.jp/devsumi/20190214/">Developers Summit 2019</a></td>           <td><a href="/slides/?2019-devsumi">スライド</a></td>                 <td></td> </tr>
-            <tr><td>2018.</td><td>11.</td><td>23</td> <td><a href="https://nodefest.jp/2018/">東京Node学園祭2018</a></td>                                 <td><a href="/slides/?2018-nodefest">スライド</a></td>                <td><a href="https://youtu.be/pPerXeXXR9w">ビデオ</a></td> </tr>
-            <tr><td>2018.</td><td>11.</td><td>10</td> <td><a href="https://vuejs-meetup.connpass.com/event/97557/">Vue Fes Japan 2018 Reject Con</a></td> <td><a href="/slides/?2018-vue-fes-reject-con">スライド</a></td>      <td></td> </tr>
-            <tr><td>2018.</td><td> 9.</td><td>29</td> <td><a href="http://2018.serverlessconf.tokyo/">Serverlessconf Tokyo 2018</a></td>                  <td><a href="/slides/?2018-serverless-conf">スライド</a></td>         <td></td> </tr>
-            <tr><td>2018.</td><td> 6.</td><td>16</td> <td><a href="https://spajam.jp/2018/entry/tokyo-d/">SPAJAM 2018 東京D予選</a></td>                  <td><a href="/slides/?2018-spajam-qualification">スライド</a></td>    <td></td> </tr>
-            <tr><td>2018.</td><td> 5.</td><td>26</td> <td><a href="http://www.java-users.jp/ccc2018spring/">JJUG CCC 2018 Spring</a></td>                 <td><a href="/slides/?2018-jjug-ccc-spring">スライド</a></td>         <td><a href="/rap-tap-app/">作品</a></td> </tr>
-            <tr><td>2018.</td><td> 2.</td><td>28</td> <td>Agile ＆ DevOps 勉強会 [CLOSED]</td>                                                            <td><a href="/slides/?2018-agile-and-devopts-study">スライド</a></td> <td></td> </tr>
-            <tr><td>2017.</td><td>11.</td><td> 3</td> <td><a href="http://2017.serverlessconf.tokyo/">Serverlessconf Tokyo 2017</a></td>                  <td><a href="/slides/?2017-serverless-conf">スライド</a></td>         <td></td> </tr>
+            <tr><td>2019.</td><td> 3.</td><td> 9</td> <td><g-image src="~/assets/logo/cto-samurai.png" />    <a href="https://cto-samurai.connpass.com/event/120473/">CTOチームと競うハッカソン</a></td>     <td></td>               <td></td> </tr>
+            <tr><td>2019.</td><td> 2.</td><td>23</td> <td><g-image src="~/assets/logo/jaws-days-2019.png" /> <a href="https://jawsdays2019.jaws-ug.jp/">JAWS DAYS 2019</a></td>                              <td><a href="/slides/?2019-jaws-days">スライド</a></td>               <td></td> </tr>
+            <tr><td>2019.</td><td> 2.</td><td>15</td> <td><g-image src="~/assets/logo/devsumi.png" />        <a href="https://event.shoeisha.jp/devsumi/20190214/">Developers Summit 2019</a></td>           <td><a href="/slides/?2019-devsumi">スライド</a></td>                 <td></td> </tr>
+            <tr><td>2018.</td><td>11.</td><td>23</td> <td><g-image src="~/assets/logo/nodefest.png" />       <a href="https://nodefest.jp/2018/">東京Node学園祭2018</a></td>                                 <td><a href="/slides/?2018-nodefest">スライド</a></td>                <td><a href="https://youtu.be/pPerXeXXR9w">ビデオ</a></td> </tr>
+            <tr><td>2018.</td><td>11.</td><td>10</td> <td><g-image src="~/assets/logo/vuefes.png" />         <a href="https://vuejs-meetup.connpass.com/event/97557/">Vue Fes Japan 2018 Reject Con</a></td> <td><a href="/slides/?2018-vue-fes-reject-con">スライド</a></td>      <td></td> </tr>
+            <tr><td>2018.</td><td> 9.</td><td>29</td> <td><g-image src="~/assets/logo/serverlessconf.png" /> <a href="http://2018.serverlessconf.tokyo/">Serverlessconf Tokyo 2018</a></td>                  <td><a href="/slides/?2018-serverless-conf">スライド</a></td>         <td></td> </tr>
+            <tr><td>2018.</td><td> 6.</td><td>16</td> <td><g-image src="~/assets/logo/spajam.png" />         <a href="https://spajam.jp/2018/entry/tokyo-d/">SPAJAM 2018 東京D予選</a></td>                  <td><a href="/slides/?2018-spajam-qualification">スライド</a></td>    <td></td> </tr>
+            <tr><td>2018.</td><td> 5.</td><td>26</td> <td><g-image src="~/assets/logo/jjug.png" />           <a href="http://www.java-users.jp/ccc2018spring/">JJUG CCC 2018 Spring</a></td>                 <td><a href="/slides/?2018-jjug-ccc-spring">スライド</a></td>         <td><a href="/rap-tap-app/">作品</a></td> </tr>
+            <tr><td>2018.</td><td> 2.</td><td>28</td> <td><g-image src="~/assets/logo/closed.png" />         <a>Agile ＆ DevOps 勉強会 [CLOSED]</a></td>                                                            <td><a href="/slides/?2018-agile-and-devopts-study">スライド</a></td> <td></td> </tr>
+            <tr><td>2017.</td><td>11.</td><td> 3</td> <td><g-image src="~/assets/logo/serverlessconf.png" /> <a href="http://2017.serverlessconf.tokyo/">Serverlessconf Tokyo 2017</a></td>                  <td><a href="/slides/?2017-serverless-conf">スライド</a></td>         <td></td> </tr>
           </table>
         </div>
       </section>
@@ -189,12 +189,18 @@ $color-primary: #003366;
 
 .activities {
   td {
+    vertical-align: bottom;
     &:nth-child(-n+3) {
       text-align: right;
     }
     &:nth-child(n+4) {
       padding-left: 16px;
     }
+  }
+
+  img {
+    width: 18px;
+    margin-right: 4px;
   }
 }
 
