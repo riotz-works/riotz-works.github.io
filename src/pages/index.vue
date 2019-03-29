@@ -25,6 +25,7 @@
         <h2><i class='uil uil-chat-bubble-user' />Activities</h2>
         <div class="contents">
           <table>
+            <tr><td>2019.</td><td> 4.</td><td> 3</td> <td><g-image src="~/assets/logo/shifter-jp.png" />     <a href="https://eventregist.com/e/xiza3ieCWYFc">Shiftup! JP_Getshifter Vol3</a></td>           <td><a href="/slides/?2019-shiftup-jp_getshifter-vol3">発表資料</a></td></td> <td></td> </tr>
             <tr><td>2019.</td><td> 3.</td><td> 9</td> <td><g-image src="~/assets/logo/cto-samurai.png" />    <a href="https://cto-samurai.connpass.com/event/120473/">CTOチームと競うハッカソン</a></td>     <td></td>               <td></td> </tr>
             <tr><td>2019.</td><td> 2.</td><td>23</td> <td><g-image src="~/assets/logo/jaws-days-2019.png" /> <a href="https://jawsdays2019.jaws-ug.jp/">JAWS DAYS 2019</a></td>                              <td><a href="/slides/?2019-jaws-days">発表資料</a></td>               <td></td> </tr>
             <tr><td>2019.</td><td> 2.</td><td>15</td> <td><g-image src="~/assets/logo/devsumi.png" />        <a href="https://event.shoeisha.jp/devsumi/20190214/">Developers Summit 2019</a></td>           <td><a href="/slides/?2019-devsumi">発表資料</a></td>                 <td></td> </tr>
