@@ -81,7 +81,7 @@ export default {
 
 <style lang="scss" scoped>
 .headline {
-  font-family: 'Quicksand', 'Rounded Mplus 1c' !important;
+  font-family: 'Quicksand', 'M PLUS Rounded 1c' !important;
   font-feature-settings: 'palt' 1;
 }
 
