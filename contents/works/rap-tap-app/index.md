@@ -28,7 +28,7 @@ excerpt: "SPAJAM 2018 東京Ｄ予選、テーマ「音楽」 での モバイ�
 
 
 ### 関連記事
-- [2018年の Riotz Works の活動を振り返る](https://riotz.works/articles/2018/12/29/what-we-did-in-2018/)
+- [2018年の Riotz.works の活動を振り返る](https://riotz.works/articles/2018/12/29/what-we-did-in-2018/)
 - [2018年の振り返り](https://riotz.works/articles/2018/12/31/review-of-2018/)
 - [Riots.works での JAMStack の 利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
 - [発表者は、その日何をしていたのか - 発表の舞台裏 @デブサミ 2019 冬](https://riotz.works/articles/2019/02/15/backstage-of-presentation-at-devsumi-2019-winter/)
