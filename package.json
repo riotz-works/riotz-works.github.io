@@ -19,9 +19,9 @@
     "webpack-node-externals": "^1.7.2"
   },
   "scripts": {
+    "clean": "npx rimraf .cache dist src/.temp",
     "setup": "yarn install --ignore-optional",
-    "upgrade": "yarn upgrade --latest",
-    "develop": "gridsome develop",
+    "dev": "gridsome develop",
     "explore": "gridsome explore",
     "build": "gridsome build",
     "deploy": "gh-pages -d dist -b master -m 'Update Site [ci skip]'"
