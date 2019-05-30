@@ -9,7 +9,7 @@
       <v-layout row wrap>
         <v-flex v-for="engineer in engineers" :key="engineer.node.id" xs12 sm6 md4>
           <v-card :id="engineer.node.account" dark max-width="320">
-            <g-image :src="engineer.node.image" class="engineer-avatar" />
+            <g-image :src="engineer.node.image" class="engineer-avatar" :alt="engineer.node.account" />
             <v-card-title class="headline">
               <ruby>
                 <rb>{{ engineer.node.account }}</rb>
@@ -18,8 +18,8 @@
             </v-card-title>
             <v-card-text class="text engineer-description" v-html="engineer.node.excerpt" />
             <v-card-actions>
-              <v-btn icon class="icon ma-2" :href="'https://twitter.com/' + engineer.node.account"><img src="../assets/icon/twitter.svg" /></v-btn>
-              <v-btn icon class="icon ma-2" :href="'https://github.com/' + engineer.node.account"><img src="../assets/icon/github.svg" /></v-btn>
+              <v-btn icon class="icon ma-2" :href="'https://twitter.com/' + engineer.node.account"><img src="../assets/icon/twitter.svg" alt="Twitter" /></v-btn>
+              <v-btn icon class="icon ma-2" :href="'https://github.com/' + engineer.node.account"><img src="../assets/icon/github.svg" alt="GitHub" /></v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>

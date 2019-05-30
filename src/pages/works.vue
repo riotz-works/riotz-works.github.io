@@ -9,7 +9,7 @@
       <v-layout justify-space-around wrap>
         <v-flex v-for="work in works" :key="work.node.id">
 
-          <h2><g-image :src="work.node.icon" class="icon" />{{ work.node.title }}</h2>
+          <h2><g-image :src="work.node.icon" class="icon" :alt="work.node.title" />{{ work.node.title }}</h2>
 
           <p class="link">
             <ul>
@@ -23,7 +23,7 @@
           <h3>開発</h3>
           <p>
             <a v-for="engineer in work.node.engineers" :key="engineer" :href="'/engineers/#' + engineer" class="engineer" :title="engineer">
-              <v-avatar slot="activator" size="36px"><g-image :src="engineers[engineer].node.image" /></v-avatar>
+              <v-avatar slot="activator" size="36px"><g-image :src="engineers[engineer].node.image" :alt="engineers[engineer].node.account" /></v-avatar>
             </a>
           </p>
 
