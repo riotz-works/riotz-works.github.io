@@ -181,7 +181,7 @@ $color-primary: #003366;
       border-color: $color-base;
     }
     a {
-      color: #c8c8c8;
+      color: #c8c8c8 !important;
     }
   }
 }
