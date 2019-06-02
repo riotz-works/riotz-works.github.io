@@ -122,6 +122,10 @@ export default Vue.extend({
 
 
 <style scoped lang="scss">
+a {
+  color: rgba(0,0,0,.87) !important;
+}
+
 .logo {
   img {
     width: 120px;
