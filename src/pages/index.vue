@@ -25,6 +25,7 @@
         <h2><i class='uil uil-chat-bubble-user' />Activities</h2>
         <div class="contents">
           <table>
+            <tr><td>2019.</td><td> 7.</td><td>19</td> <td>                                                                                                     <a href="https://connpass.com/event/135463/">勤怠を自動化する技術 LT Night </a></td>            <td><a href="/slides/2019-attendance-tech-lt">発表資料</a></td>              <td></td> </tr>
             <tr><td>2019.</td><td> 6.</td><td> 1</td> <td><g-image src="~/assets/logo/js-matsuri.png"        alt="初夏のJavaScript祭 アイコン" />              <a href="https://javascript-fes.doorkeeper.jp/events/90894">初夏のJavaScript祭</a></td>         <td><a href="/slides/2019-javascript-matsuri">発表資料</a></td>              <td></td> </tr>
             <tr><td>2019.</td><td> 5.</td><td>27</td> <td><g-image src="~/assets/logo/serverlesstokyo12.jpg" alt="Serverless Meetup Tokyo 12 アイコン" />      <a href="https://serverless.connpass.com/event/130509/">Serverless Meetup Tokyo #12</a></td>    <td><a href="/slides/2019-serverless-meetup-tokyo12">発表資料</a></td>       <td></td> </tr>
             <tr><td>2019.</td><td> 5.</td><td>18</td> <td><g-image src="~/assets/logo/spajam.png"            alt="SPAJAM 2019 東京A予選 アイコン" />           <a href="https://spajam.jp/2019/entry/tokyo-a/">SPAJAM 2019 東京A予選</a></td>                  <td><a href="/slides/2019-spajam-qualification">発表資料</a></td>            <td></td> </tr>
