@@ -25,6 +25,7 @@
         <h2><i class='uil uil-chat-bubble-user' />Activities</h2>
         <div class="contents">
           <table>
+            <tr><td>2019.</td><td> 7.</td><td>23</td> <td><g-image src="~/assets/logo/cloudnative-days.png"  alt="CloudNative Days Tokyo 2019 アイコン" />     <a href="https://cloudnativedays.jp/cndt2019/">CloudNative Days Tokyo 2019</a></td>             <td><a href="/slides/2019-cloudnative-days">発表資料</a></td>              <td></td> </tr>
             <tr><td>2019.</td><td> 7.</td><td>19</td> <td>                                                                                                     <a href="https://connpass.com/event/135463/">勤怠を自動化する技術 LT Night </a></td>            <td><a href="/slides/2019-attendance-tech-lt">発表資料</a></td>              <td></td> </tr>
             <tr><td>2019.</td><td> 6.</td><td> 1</td> <td><g-image src="~/assets/logo/js-matsuri.png"        alt="初夏のJavaScript祭 アイコン" />              <a href="https://javascript-fes.doorkeeper.jp/events/90894">初夏のJavaScript祭</a></td>         <td><a href="/slides/2019-javascript-matsuri">発表資料</a></td>              <td></td> </tr>
             <tr><td>2019.</td><td> 5.</td><td>27</td> <td><g-image src="~/assets/logo/serverlesstokyo12.jpg" alt="Serverless Meetup Tokyo 12 アイコン" />      <a href="https://serverless.connpass.com/event/130509/">Serverless Meetup Tokyo #12</a></td>    <td><a href="/slides/2019-serverless-meetup-tokyo12">発表資料</a></td>       <td></td> </tr>
