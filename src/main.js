@@ -11,7 +11,7 @@ export default (Vue, { head }) => {
   head.link.push({ rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Quicksand&display=swap' });
   head.link.push({ rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap&subset=japanese' });
   head.link.push({ rel: 'stylesheet', href: '//cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.min.css' });
-  head.link.push({ rel: 'stylesheet', href: '//unicons.iconscout.com/release/v0.0.4/css/unicons.css' });
+  head.link.push({ rel: 'stylesheet', href: '//unicons.iconscout.com/release/v1.0.0/css/unicons.css' });
 
   Vue.component('Layout', DefaultLayout);
 };
