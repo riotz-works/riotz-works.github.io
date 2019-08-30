@@ -6,7 +6,7 @@
   "applicationHost": "https://riotz.works",
   "private": true,
   "dependencies": {
-    "gridsome": "^0.6.8",
+    "gridsome": "^0.6.9",
     "vuetify": "^1.5.16"
   },
   "devDependencies": {
