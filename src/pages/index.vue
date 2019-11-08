@@ -25,6 +25,7 @@
         <h2><i class='uil uil-chat-bubble-user' />Activities</h2>
         <div class="contents">
           <table>
+            <tr><td>2019.</td><td>10.</td><td>22</td> <td><g-image src="~/assets/logo/closed.png"            alt="closed-study-icon" />                        <a>サーバーレス勉強会 [CLOSED]</a></td>                                                         <td colspan="2">[資料の公開準備中]</td>                                      <td></td> </tr>
             <tr><td>2019.</td><td> 9.</td><td>20</td> <td><g-image src="~/assets/logo/closed.png"            alt="closed-study-icon" />                        <a>New Biz アイデアソン [CLOSED]</a></td>                                                       <td colspan="2">[資料の公開準備中]</td>                                      <td></td> </tr>
             <tr><td>2019.</td><td> 8.</td><td>29</td> <td><g-image src="~/assets/logo/vuetify-meetup.png"    alt="Vuetify Meetup アイコン" />                  <a href="https://vuetify-meetup.connpass.com/event/141677/">Vuetify Meetup #1</a></td>          <td><a href="/slides/2019-vuetify-meetup-1">発表資料</a></td>                <td></td> </tr>
             <tr><td>2019.</td><td> 8.</td><td> 7</td> <td><g-image src="~/assets/logo/shifter-jp.png"        alt="Shiftup JP_Getshifter Vol3 アイコン" />      <a href="https://eventregist.com/e/0if9nERXstQg">Shiftup! JP_Getshifter Vol5</a></td>           <td><a href="/slides/2019-shiftup-jp_getshifter-vol5">発表資料</a></td>      <td></td> </tr>
