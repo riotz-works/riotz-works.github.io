@@ -25,6 +25,7 @@
         <h2><i class='uil uil-chat-bubble-user' />Activities</h2>
         <div class="contents">
           <table>
+            <tr><td>2019.</td><td>11.</td><td>29</td> <td><g-image src="~/assets/logo/closed.png"              alt="closed-study-icon" />                        <a>ウェブフロント勉強会 [CLOSED]</a></td>                                                       <td colspan="2">[資料の公開準備中]</td>                                      <td></td> </tr>
             <tr><td>2019.</td><td>11.</td><td>25</td> <td><g-image src="~/assets/logo/engineers-lt.png"        alt="Engineers LT アイコン" />                    <a href="https://engineers.connpass.com/event/154495/">登壇の技術を勉強する会 #3</a></td>       <td colspan="2"><a href="/slides/2019-cfp-study">発表資料</a></td>           <td></td> </tr>
             <tr><td>2019.</td><td>11.</td><td>02</td> <td><g-image src="~/assets/logo/wordcamp-tokyo-2019.png" alt="WordCamp Tokyo アイコン" />                  <a href="https://2019.tokyo.wordcamp.org/">WordCamp Tokyo 2019</a></td>                         <td><a href="/slides/2019-wordcamp-tokyo">発表資料</a></td>                  <td><a href="https://youtu.be/WGCdwV4nvTw">ビデオ</a></td> </tr>
             <tr><td>2019.</td><td>10.</td><td>22</td> <td><g-image src="~/assets/logo/closed.png"              alt="closed-study-icon" />                        <a>サーバーレス勉強会 [CLOSED]</a></td>                                                         <td colspan="2">[資料の公開準備中]</td>                                      <td></td> </tr>
