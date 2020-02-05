@@ -41,7 +41,7 @@
 <page-query>
 query Works {
 
-  works: allwork {
+  works: allWork {
     totalCount
     edges {
       node {
@@ -60,7 +60,7 @@ query Works {
     }
   }
 
-  engineers: allengineer {
+  engineers: allEngineer {
     totalCount
     edges {
       node {

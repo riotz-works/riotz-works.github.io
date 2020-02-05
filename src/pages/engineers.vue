@@ -33,7 +33,7 @@
 
 <page-query>
 query Engineers {
-  engineers: allengineer {
+  engineers: allEngineer {
     totalCount
     edges {
       node {

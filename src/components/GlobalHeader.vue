@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar app flat fluid fill-height style="background-color: rgba(0, 0, 0, 0)">
+  <v-app-toolbar text fluid fill-height style="background-color: rgba(0, 0, 0, 0)">
 
     <v-toolbar-title>
       <g-link to="/" class="logo">
@@ -11,28 +11,28 @@
 
     <!-- For PC View -->
     <v-toolbar-items class="hidden-sm-and-down">
-      <v-btn flat @click="redirect('//riotz.works/articles/')" class="subheading mx-1">
+      <v-btn text @click="redirect('//riotz.works/articles/')" class="subheading mx-1">
         <i class='uil uil-file-edit-alt' />
         <span class="tile-title">ARTICLES</span>
       </v-btn>
 
       <v-divider inset vertical />
 
-      <v-btn flat @click="redirect('//riotz.works/slides/')" class="subheading mx-1">
+      <v-btn text @click="redirect('//riotz.works/slides/')" class="subheading mx-1">
         <i class='uil uil-presentation-lines-alt' />
         <span class="tile-title">SLIDES</span>
       </v-btn>
 
       <v-divider inset vertical />
 
-      <v-btn flat to="/works" class="subheading mx-1">
+      <v-btn text to="/works" class="subheading mx-1">
         <i class='uil uil-gift' />
         <span class="tile-title">WORKS</span>
       </v-btn>
 
       <v-divider inset vertical />
 
-      <v-btn flat to="/engineers" class="subheading mx-1">
+      <v-btn text to="/engineers" class="subheading mx-1">
         <i class='uil uil-users-alt' />
         <span class="tile-title">ENGINEERS</span>
       </v-btn>
@@ -105,7 +105,7 @@
       </v-menu>
     </v-toolbar-items>
 
-  </v-toolbar>
+  </v-app-toolbar>
 </template>
 
 
