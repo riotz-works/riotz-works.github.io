@@ -22,7 +22,7 @@
     "gridsome": "^0.7.14",
     "node-sass": "^4.14.0",
     "sass-loader": "^8.0.2",
-    "vuetify": "^2.2.23",
+    "vuetify": "^2.2.25",
     "webpack-node-externals": "^1.7.2"
   },
   "homepage": "https://github.com/riotz-works/riotz-works.github.io#readme",
