@@ -15,7 +15,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/plugin-google-analytics": "^0.1.1",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.5.0",
     "gh-pages": "^2.2.0",
