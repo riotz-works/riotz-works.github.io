@@ -9,11 +9,14 @@
     "clean": "rimraf .cache dist src/.temp",
     "setup": "yarn install --ignore-optional",
     "dev": "gridsome develop",
-    "dev:explore": "gridsome explore",
     "build": "gridsome build",
+    "explore": "gridsome explore",
     "deploy": "gh-pages -d dist -b master -m 'Update Site [ci skip]'"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.32"
+  },
   "devDependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.1",
     "@gridsome/source-filesystem": "^0.6.2",
@@ -22,7 +25,6 @@
     "gridsome": "^0.7.17",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
-    "vuetify": "^2.2.32",
     "webpack-node-externals": "^1.7.2"
   },
   "homepage": "https://github.com/riotz-works/riotz-works.github.io#readme",
