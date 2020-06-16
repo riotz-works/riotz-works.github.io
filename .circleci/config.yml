@@ -22,8 +22,7 @@ commands:
 
 jobs:
   setup:
-    executor:
-      name: default
+    executor: default
     steps:
       - run:
           name: System information
@@ -45,8 +44,7 @@ jobs:
             - ~/.cache/yarn
       - persist
   build:
-    executor:
-      name: default
+    executor: default
     steps:
       - attach
       - run:
@@ -57,15 +55,13 @@ jobs:
           path: dist
       - persist
   deploy:
-    executor:
-      name: default
+    executor: default
     steps:
       - attach
       - add_ssh_keys:
           fingerprints:
             - "d8:61:dc:05:cf:02:8b:3a:65:80:42:69:f6:2f:e9:96"
-      - run:
-          name: Deploy
+      - deploy:
           command: |
             ssh-keyscan github.com >> ~/.ssh/known_hosts
             git config --global user.name "CircleCI"
