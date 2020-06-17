@@ -6,7 +6,7 @@
   "applicationHost": "https://riotz.works",
   "private": true,
   "scripts": {
-    "clean": "rimraf .cache dist src/.temp",
+    "clean": "rimraf node_modules/.cache .cache src/.temp dist",
     "setup": "yarn install --ignore-optional",
     "dev": "gridsome develop",
     "build": "gridsome build",
