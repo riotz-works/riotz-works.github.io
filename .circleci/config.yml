@@ -12,13 +12,18 @@ commands:
   attach:
     steps:
       - attach_workspace:
-          at: ~/workspace
+          at: .
   persist:
     steps:
       - persist_to_workspace:
-          root: ~/workspace
+          root: .
           paths:
-            - ./*
+            - "*"
+  ssh_keys:
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "d8:61:dc:05:cf:02:8b:3a:65:80:42:69:f6:2f:e9:96"
 
 jobs:
   setup:
@@ -31,14 +36,12 @@ jobs:
             echo "Yarn v$(yarn -v)"
       - checkout
       - restore_cache:
-          name: Restore Yarn Package Cache
           key: yarn-packages-{{ checksum "yarn.lock" }}
       - run:
           name: Setup
           command: |
             yarn setup
       - save_cache:
-          name: Save Yarn Package Cache
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
@@ -58,9 +61,7 @@ jobs:
     executor: default
     steps:
       - attach
-      - add_ssh_keys:
-          fingerprints:
-            - "d8:61:dc:05:cf:02:8b:3a:65:80:42:69:f6:2f:e9:96"
+      - ssh_keys
       - deploy:
           command: |
             ssh-keyscan github.com >> ~/.ssh/known_hosts
