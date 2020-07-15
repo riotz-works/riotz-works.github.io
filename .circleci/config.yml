@@ -24,6 +24,8 @@ commands:
       - add_ssh_keys:
           fingerprints:
             - "d8:61:dc:05:cf:02:8b:3a:65:80:42:69:f6:2f:e9:96"
+      - run:
+          command: ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 jobs:
   setup:
@@ -64,7 +66,6 @@ jobs:
       - ssh_keys
       - deploy:
           command: |
-            ssh-keyscan github.com >> ~/.ssh/known_hosts
             yarn deploy -u "`git --no-pager show -s --format='%cn <%ce>' HEAD`" `[ "<< parameters.stage >>" = "none" ] && echo " -n"`
 
 
