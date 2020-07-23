@@ -4,7 +4,7 @@ module.exports = function (api) {
   api.chainWebpack((config, { isServer }) => {
     if (isServer) {
       config.externals([
-        nodeExternals({ whitelist: [ /^vuetify/ ]})
+        nodeExternals({ allowlist: [ /^vuetify/ ]})
       ]);
     }
   });
