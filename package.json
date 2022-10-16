@@ -14,7 +14,7 @@
     "deploy": "gh-pages -t -d dist -b master -m 'Update Site [ci skip]'"
   },
   "dependencies": {
-    "vue": "^2.6.11",
+    "vue": "^2.7.13",
     "vuetify": "^2.3.10"
   },
   "devDependencies": {
